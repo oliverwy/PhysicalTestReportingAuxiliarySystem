@@ -241,7 +241,7 @@ class Students(models.Model):
 
     @property
     def computer_bithday(self):
-        return self.idcardno[6:10] + "-" + self.idcardno[11:12] + "-" + self.idcardno[13:14]
+        return self.idcardno[6:10] + "-" + self.idcardno[10:12] + "-" + self.idcardno[12:14]
 
     @property
     def caculate_it(self):
@@ -360,8 +360,8 @@ class Students(models.Model):
         return x
 
     class Meta:
-        verbose_name = "体能测试成绩表"
-        verbose_name_plural = "体能测试成绩表"
+        verbose_name = "体能测试成绩"
+        verbose_name_plural = "体能测试成绩"
 
     def __str__(self):
         return self.name + "-" + self.idcardno
