@@ -1,6 +1,6 @@
 学生体能测试上报辅助系统<br>
 作者开发系统：deepin15.11，pycharm2019<br>
-软件环境Python3.7 django2.1.4,使用sqlite３数据库<br>
+软件环境Python3.7 django2.1.4 xamdin,使用sqlite３数据库<br>
 
 系统的安装过程：<br>
 pip install django==2.1.4<br>
